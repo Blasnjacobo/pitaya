@@ -1,0 +1,79 @@
+[
+    {
+        "id":"0",
+        "nombre": "Sueter",
+        "sku": "FRIENDS1",
+        "peso": "300g",
+        "precio": "15",
+        "imagen": "https://flixprop.com/cdn/shop/products/Post-Sueter-Monica-Girls-Prod2.jpg?v=1625491510&width=600",
+        "tipo": "Mediana",
+        "inventario": "flixprop",
+        "marca": "flixprop brand"
+    },
+    {
+        "id":"1",
+        "nombre": "Sueter",
+        "sku": "FRIENDS1",
+        "peso": "300g",
+        "precio": "15",
+        "imagen": "https://flixprop.com/cdn/shop/products/Post-Sueter-Monica-Girls-Prod2.jpg?v=1625491510&width=600",
+        "tipo": "Mediana",
+        "inventario": "flixprop",
+        "marca": "flixprop brand"
+    },
+    {
+        "id":"2",
+        "nombre": "Sueter",
+        "sku": "FRIENDS1",
+        "peso": "300g",
+        "precio": "15",
+        "imagen": "https://flixprop.com/cdn/shop/products/Post-Sueter-Monica-Girls-Prod2.jpg?v=1625491510&width=600",
+        "tipo": "Mediana",
+        "inventario": "flixprop",
+        "marca": "flixprop brand"
+    },
+    {
+        "id":"3",
+        "nombre": "Sueter",
+        "sku": "FRIENDS1",
+        "peso": "300g",
+        "precio": "15",
+        "imagen": "https://flixprop.com/cdn/shop/products/Post-Sueter-Monica-Girls-Prod2.jpg?v=1625491510&width=600",
+        "tipo": "Mediana",
+        "inventario": "flixprop",
+        "marca": "flixprop brand"
+    },
+    {
+        "id":"4",
+        "nombre": "Sueter",
+        "sku": "FRIENDS1",
+        "peso": "300g",
+        "precio": "15",
+        "imagen": "https://flixprop.com/cdn/shop/products/Post-Sueter-Monica-Girls-Prod2.jpg?v=1625491510&width=600",
+        "tipo": "Mediana",
+        "inventario": "flixprop",
+        "marca": "flixprop brand"
+    },
+    {
+        "id":"5",
+        "nombre": "Sueter",
+        "sku": "FRIENDS1",
+        "peso": "300g",
+        "precio": "15",
+        "imagen": "https://flixprop.com/cdn/shop/products/Post-Sueter-Monica-Girls-Prod2.jpg?v=1625491510&width=600",
+        "tipo": "Mediana",
+        "inventario": "flixprop",
+        "marca": "flixprop brand"
+    },
+    {
+        "id":"6",
+        "nombre": "Sueter",
+        "sku": "FRIENDS1",
+        "peso": "300g",
+        "precio": "15",
+        "imagen": "https://flixprop.com/cdn/shop/products/Post-Sueter-Monica-Girls-Prod2.jpg?v=1625491510&width=600",
+        "tipo": "Mediana",
+        "inventario": "flixprop",
+        "marca": "flixprop brand"
+    }
+]
