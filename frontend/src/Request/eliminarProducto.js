@@ -1,9 +1,13 @@
 const eliminarProducto = async (id) => {
   console.log(id);
   try {
+    const token = localStorage.getItem('token');
     const response = await fetch(`http://localhost:5000/catalog/products/${id}`, {
       method: 'DELETE',
-      headers: { 'Content-Type': 'application/json' }
+      headers: { 
+        'Content-Type': 'application/json',
+        'authorization': `Bearer ${token}`
+      }
     });
 
     if (!response.ok) {

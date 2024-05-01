@@ -4,19 +4,20 @@ import jwt from "jsonwebtoken";
 
 router.get("/", async (req, res) => {
     try {
+        const secretKey = process.env.JWT_SECRET
         const token = jwt.sign(
             {
-                username: 'username',
-                password: 'password',
+              user: 'user',
+              username: 'username',
+              provider: 'provider',
             },
-            process.env.JWT_SECRET,
+            secretKey,
             {
-                expiresIn: "1h",
+              expiresIn: "1h",
             }
-        );
-
+        )
         // Send the token as a JSON response
-        res.json({ token });
+        res.json({ token})
     } catch (error) {
         console.error('Error during login:', error);
         res.status(500).json({ error: 'An error occurred during login' });

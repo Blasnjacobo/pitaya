@@ -1,11 +1,13 @@
 const editarProducto = async (nuevoProducto) => {
   const id = nuevoProducto.id
   try {
+    const token = localStorage.getItem('token');
     const response = await fetch(`http://localhost:5000/catalog/products/${id}`, {
       method: 'PUT',
       headers: { 
         'Content-Type': 'application/json',
-        Accept: 'application/json'
+        Accept: 'application/json',
+        'authorization': `Bearer ${token}`
       },
       body: JSON.stringify(nuevoProducto)
     });

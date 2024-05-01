@@ -4,7 +4,7 @@ import cors from 'cors';
 import { config as dotenvConfig } from 'dotenv';
 import productsRouter from './routes/productos.js';
 import authRouter from './routes/auth.js'
-import bodyParser from 'body-parser'; // Import body-parser
+import bodyParser from 'body-parser';
 
 const app = express();
 dotenvConfig();
