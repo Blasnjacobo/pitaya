@@ -17,6 +17,7 @@ export const iniciarSesion = async () => {
         const token = data.token;
     
         localStorage.setItem('token', token);
+        window.location.reload();
         console.log('Token JWT obtenido:', token);
       } catch (error) {
         console.error('Error al obtener el token JWT:', error);
