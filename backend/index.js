@@ -3,6 +3,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import { config as dotenvConfig } from 'dotenv';
 import productsRouter from './routes/productos.js';
+import authRouter from './routes/auth.js'
 import bodyParser from 'body-parser'; // Import body-parser
 
 const app = express();
@@ -20,6 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Mount productsRouter for other product-related routes
 app.use('/catalog/products', productsRouter);
+app.use('/auth', authRouter)
 
 const PORT = process.env.PORT || 3000;
 
